@@ -1,7 +1,23 @@
 # webchat-realtime-golang
 Building simple realtime web application chat in room with golang
+This repository for bulding simple realtime web chat application in room with golang and websocket.
 
-### Start the server
-`go run main.go`
+# Go example projects
 
-http://localhost:8080/room/1
+[![Go Reference](https://pkg.go.dev/badge/golang.org/x/example.svg)](https://pkg.go.dev/golang.org/x/example)
+
+## Clone the project and start the server
+
+```
+$ git clone https://github.com/doni404/webchat-realtime-golang.git
+$ cd webchat-realtime-golang
+$ go run main.go
+```
+https://github.com/doni404/webchat-realtime-golang.git is the Git repository.
+The server will available on http://localhost:5555/room/1
+You can replace 1 with any strings.
+
+## [template](template/)
+
+A trivial web server that demonstrates the use of the
+[`template` package](https://golang.org/pkg/text/template/)'s `block` feature.
